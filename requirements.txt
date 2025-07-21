@@ -1,0 +1,11 @@
+# Core requirements
+Django>=3.2,<5.0
+tensorflow>=2.10.0
+numpy>=1.19.5
+matplotlib>=3.3.4
+gunicorn
+
+# For image preprocessing
+Pillow>=8.0.0
+
+
