@@ -1,5 +1,6 @@
-Django==4.2.5
 tensorflow==2.10.1
-numpy==1.23.5
-matplotlib==3.7.1
-Pillow==9.5.0
+matplotlib
+numpy
+Pillow
+django
+gunicorn 
