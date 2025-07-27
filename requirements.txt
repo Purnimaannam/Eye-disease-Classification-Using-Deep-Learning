@@ -1,5 +1,5 @@
 Django==4.2.11
-tensorflow==2.19.0
+tensorflow
 Pillow>=9.0.0
 numpy>=1.21.0
 matplotlib>=3.5.0
