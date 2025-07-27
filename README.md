@@ -36,3 +36,4 @@ Image Processing	Pillow, OpenCV
 Visualization	Matplotlib
 Deployment	Docker + Render Cloud Platform
                      # Model training script using MobileNetV2
+                     
