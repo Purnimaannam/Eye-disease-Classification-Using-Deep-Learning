@@ -1,7 +1,6 @@
-Django
+gradio
+google-generativeai
+markdown2
 tensorflow
-Pillow
 numpy
-matplotlib
-opencv-python
-gunicorn
+Pillow
