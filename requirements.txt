@@ -2,6 +2,5 @@ Django
 tensorflow
 numpy
 Pillow
-torch
 gunicorn
-
+whitenoise
