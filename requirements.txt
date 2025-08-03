@@ -1,6 +1,5 @@
-gradio
-google-generativeai
-markdown2
+Django
 tensorflow
 numpy
 Pillow
+gunicorn
