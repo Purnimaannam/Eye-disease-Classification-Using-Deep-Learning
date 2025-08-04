@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7sxp&27jh2km@d8$8%=)k)74h=-ezlp229i9mkuwxl%u*o8b)m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['eye-disease-classification-using-deep.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -122,4 +122,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
