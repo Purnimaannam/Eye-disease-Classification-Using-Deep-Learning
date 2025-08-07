@@ -4,5 +4,7 @@ tensorflow
 numpy
 Pillow
 torch
+protobuf
 gunicorn
+
 
