@@ -1,7 +1,6 @@
 Django
+gunicorn
 tensorflow
 numpy
 Pillow
 gunicorn
-whitenoise
-torch
