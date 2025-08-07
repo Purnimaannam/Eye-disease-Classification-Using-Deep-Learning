@@ -3,4 +3,6 @@ gunicorn
 tensorflow
 numpy
 Pillow
+torch
 gunicorn
+
