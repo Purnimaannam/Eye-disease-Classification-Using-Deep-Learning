@@ -5,6 +5,8 @@ numpy
 Pillow
 torch
 protobuf
+tflite-runtime
 gunicorn
+
 
 
