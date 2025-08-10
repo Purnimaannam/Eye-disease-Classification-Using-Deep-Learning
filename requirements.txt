@@ -1,11 +1,11 @@
 Django
-gunicorn
 tensorflow
 numpy
 Pillow
 torch
 protobuf
 gunicorn
+
 
 
 
