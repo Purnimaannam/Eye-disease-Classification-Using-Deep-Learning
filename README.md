@@ -1,39 +1,55 @@
-# Eye-disease-Classification-Using-Deep-Learning
-👁️ Eye Disease Classification Using Deep Learning
-This project is a complete deep learning-based web application built using Django and TensorFlow (MobileNetV2) that predicts common eye diseases from retinal fundus images.
-The system identifies four classes of eye conditions:
-Cataract
-Diabetic Retinopathy
-Glaucoma
-Normal
+# 🩺 Eye Disease Classification Using Deep Learning
 
-It also offers medical advice such as precautionary measures, treatment suggestions, and recommended hospitals based on the prediction.
+A Django-based web application that detects eye diseases from retinal images using a deep learning model.  
+This version focuses on **Cataract detection , Normal eye** **Glaucoma** , **Diabetic Retinopathy**.
 
-🧠 Project Objective
-Early detection of eye diseases can prevent vision loss. This project aims to:
+---
 
-Develop a lightweight and accurate eye disease classifier using transfer learning.
+## 📌 Features
+- Upload retinal images directly from browser.
+- Deep learning inference using TensorFlow/Keras model.
+- Multi Class classification: **Normal Eye** / **Cataract Detected**.
+- Displays confidence score alongside prediction.
+- Web interface built with Django for easy interaction.
 
-Build a user-friendly web interface for easy image upload and diagnosis.
 
-Provide actionable medical insights to patients for follow-up.
+---
 
-📸 Example Prediction Output
-After uploading a fundus image, the app will display:
+## 📖 Background
+Eye diseases are a major cause of preventable blindness worldwide.  
+Automated detection using deep learning can:
+- Reduce diagnostic time.
+- Assist ophthalmologists in preliminary screening.
+- Increase access to healthcare in underserved areas.
 
-✅ Detected Disease
-🎯 Confidence Score (e.g., 96.45%)
-⚠️ Warning if model confidence is low
-🏥 Hospital Recommendations
-🥗 Precautionary Advice
-💊 Suggested Treatments
-🧱 Technologies Used
-Layer	Tools / Libraries
-Frontend	Django Templates, HTML, CSS
-Backend	Django (Python), Gunicorn
-Deep Learning	TensorFlow 2.19.0, Keras, MobileNetV2
-Image Processing	Pillow, OpenCV
-Visualization	Matplotlib
-Deployment	Docker + Render Cloud Platform
-                     # Model training script using MobileNetV2
-                     
+This project implements a **Convolutional Neural Network (CNN)** to analyze retinal images and classify them into categories based on patterns learned from a labeled dataset.
+
+---
+
+## 🧠 Model Training
+- **Framework:** TensorFlow/Keras
+- **Dataset:** Preprocessed retinal images resized to **224x224**.
+- **Preprocessing:** Normalization to [0,1] pixel range.
+- **Architecture:** Custom CNN / Transfer Learning (e.g., MobileNet, EfficientNet).
+- **Training Environment:** GPU-enabled Colab / Local machine.
+- **Loss Function:** Binary Crossentropy.
+- **Optimizer:** Adam.
+
+---
+
+## 🛠 Tech Stack
+**Frontend:**
+- HTML5 / CSS3
+- Django Templates
+
+**Backend:**
+- Django (Python)
+- TensorFlow/Keras for inference
+
+**Deployment:**
+- Render Web Service
+- Gunicorn as production server
+
+---
+
+
