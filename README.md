@@ -51,3 +51,7 @@ This project implements a **Convolutional Neural Network (CNN)** to analyze reti
 - Gunicorn as production server
 
 ---
+** Demo:**
+[![Watch the video](assets/thumbnail.png)](assets/demo.mp4)
+
+
