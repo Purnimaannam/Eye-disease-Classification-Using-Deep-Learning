@@ -51,7 +51,7 @@ This project implements a **Convolutional Neural Network (CNN)** to analyze reti
 - Gunicorn as production server
 
 ---
-** Demo:**
-[![Watch the video](assets/thumbnail.png)](assets/demo.mp4)
+**Demo:**
+[![Watch the video](https://github.com/Purnimaannam/Eye-disease-Classification-Using-Deep-Learning/blob/main/Screen%20Recording%202025-08-11%20150838.mp4)
 
 
