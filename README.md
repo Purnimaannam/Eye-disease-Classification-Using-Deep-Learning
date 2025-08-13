@@ -4,9 +4,13 @@ A Django-based web application that analyzes retinal images and detects common e
 The system classifies uploaded images into four categories:
 
 Cataract 👁️ – Clouding of the eye’s natural lens leading to blurry vision.
+
 Normal Eye ✅ – Healthy retina without signs of disease.
+
 Glaucoma 🌀 – Damage to the optic nerve often caused by high eye pressure.
+
 Diabetic Retinopathy 🩸 – Retina damage caused by complications of diabetes.
+
 The application leverages a Convolutional Neural Network (CNN) to process and classify the images with high accuracy. Users can upload retinal images through the web interface, and the model instantly provides predictions along with confidence scores.
 
 This system aims to:
