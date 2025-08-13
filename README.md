@@ -1,8 +1,20 @@
 # 🩺 Eye Disease Classification Using Deep Learning
 
-A Django-based web application that detects eye diseases from retinal images using a deep learning model.  
-This version focuses on **Cataract detection** , **Normal eye** ,**Glaucoma** , **Diabetic Retinopathy**.
+A Django-based web application that analyzes retinal images and detects common eye diseases using a deep learning model trained on ophthalmic datasets.
+The system classifies uploaded images into four categories:
 
+Cataract 👁️ – Clouding of the eye’s natural lens leading to blurry vision.
+Normal Eye ✅ – Healthy retina without signs of disease.
+Glaucoma 🌀 – Damage to the optic nerve often caused by high eye pressure.
+Diabetic Retinopathy 🩸 – Retina damage caused by complications of diabetes.
+The application leverages a Convolutional Neural Network (CNN) to process and classify the images with high accuracy. Users can upload retinal images through the web interface, and the model instantly provides predictions along with confidence scores.
+
+This system aims to:
+
+Assist ophthalmologists in quick screening and diagnosis.
+Enable early detection to prevent irreversible vision loss.
+
+Provide accessible eye health check-ups even in remote areas.
 ---
 
 ## 📌 Features
